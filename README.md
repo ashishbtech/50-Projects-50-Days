@@ -27,7 +27,7 @@ This challenge is based on the fantastic [50 Projects In 50 Days - HTML, CSS & J
 | Day | Project Name | Live Demo | Source Code |
 |:---:|:---|:---:|:---|
 | 01 | Expanding Cards | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/01-expanding-cards/) | [Code](./01-expanding-cards) |
-| 02 | Progress Steps | [Live Demo](#) | [Code](./02-progress-steps) |
+| 02 | Progress Steps | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/02-progress-steps/) | [Code](./02-progress-steps) |
 | 03 | Rotating Navigation Animation | [Live Demo](#) | [Code](./03-rotating-navigation) |
 | 04 | Hidden Search Widget | [Live Demo](#) | [Code](./04-hidden-search-widget) |
 | 05 | Blurry Loading | [Live Demo](#) | [Code](./05-blurry-loading) |
