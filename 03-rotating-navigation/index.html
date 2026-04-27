@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotating Navigation | Day 03</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <button id="open">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>The Art of the Frame</h1>
+      <small>By Ashish Kushwaha</small>
+      <p>Cinematography is the illusion of movement, the mastery of light, and the architecture of time. It is not simply about pointing a camera at a subject; it is the deliberate construction of a visual language that communicates emotion before a single word of dialogue is spoken. Every lens choice, every camera angle, and every shadow cast across a character's face serves the narrative.</p>
+      
+      <h3>Visual Storytelling</h3>
+      <img src="https://s.studiobinder.com/wp-content/uploads/2023/03/30-Best-Cinematography-Techniques-Tips-You-Didnt-Learn-in-Film-School-scaled.jpg" alt="Cinematic camera setup">
+      
+      <p>When analyzing a film, the meticulous logging of visual motifs reveals the director's true intent. Whether it is a slow, methodical push-in that builds unbearable tension or a sweeping, dynamic tracking shot that immerses the audience in the chaos of a scene, the camera itself becomes an invisible character.</p>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="https://letterboxd.com/ashish_a15/reviews/">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          Film Reviews
+        </a>
+      </li>
+      <li>
+        <a href="https://letterboxd.com/ashish_a15/">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          Letterboxd
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
