@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0a0a0c;
+  background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.search {
+  position: relative;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.search.active {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 191, 0, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(255, 191, 0, 0.2);
+}
+
+.input {
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0;
+  height: 50px;
+  width: 0;
+  transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), padding 0.4s ease;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #a0a0a5;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #ffbf00;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  color: #0a0a0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.2s;
+  box-shadow: 0 4px 15px rgba(255, 191, 0, 0.2);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #ffc933;
+}
+
+.search.active .input {
+  width: 250px;
+  padding: 0 20px;
+}
+
+.search.active .btn {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 400px) {
+  .search.active .input {
+    width: 200px;
+  }
+}
