@@ -30,9 +30,9 @@ This challenge is based on the fantastic [50 Projects In 50 Days - HTML, CSS & J
 | 02 | Progress Steps | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/02-progress-steps/) | [Code](./02-progress-steps) |
 | 03 | Rotating Navigation Animation | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/03-rotating-navigation/) | [Code](./03-rotating-navigation) |
 | 04 | Hidden Search Widget | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/04-hidden-search-widget/) | [Code](./04-hidden-search-widget) |
-| 05 | Blurry Loading | [Live Demo](#) | [Code](./05-blurry-loading) |
-| 06 | Scroll Animation | [Live Demo](#) | [Code](./06-scroll-animation) |
-| 07 | Split Landing Page | [Live Demo](#) | [Code](./07-split-landing-page) |
+| 05 | Blurry Loading | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/05-blurry-loading/) | [Code](./05-blurry-loading) |
+| 06 | Scroll Animation | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/06-scroll-animation/) | [Code](./06-scroll-animation) |
+| 07 | Split Landing Page | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/07-split-landing-page/) | [Code](./07-split-landing-page) |
 | 08 | Form Wave | [Live Demo](#) | [Code](./08-form-wave) |
 | 09 | Sound Board | [Live Demo](#) | [Code](./09-sound-board) |
 | 10 | Dad Jokes | [Live Demo](#) | [Code](./10-dad-jokes) |
