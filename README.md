@@ -33,13 +33,13 @@ This challenge is based on the fantastic [50 Projects In 50 Days - HTML, CSS & J
 | 05 | Blurry Loading | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/05-blurry-loading/) | [Code](./05-blurry-loading) |
 | 06 | Scroll Animation | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/06-scroll-animation/) | [Code](./06-scroll-animation) |
 | 07 | Split Landing Page | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/07-split-landing-page/) | [Code](./07-split-landing-page) |
-| 08 | Form Wave | [Live Demo](#) | [Code](./08-form-wave) |
-| 09 | Sound Board | [Live Demo](#) | [Code](./09-sound-board) |
-| 10 | Dad Jokes | [Live Demo](#) | [Code](./10-dad-jokes) |
-| 11 | Event Keycodes | [Live Demo](#) | [Code](./11-event-keycodes) |
-| 12 | FAQ Collapse | [Live Demo](#) | [Code](./12-faq-collapse) |
-| 13 | Random Choice Picker | [Live Demo](#) | [Code](./13-random-choice-picker) |
-| 14 | Animated Navigation | [Live Demo](#) | [Code](./14-animated-navigation) |
+| 08 | Form Wave | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/08-form-wave/) | [Code](./08-form-wave) |
+| 09 | Sound Board | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/09-sound-board/) | [Code](./09-sound-board) |
+| 10 | Dad Jokes | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/10-dad-jokes/) | [Code](./10-dad-jokes) |
+| 11 | Event Keycodes | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/11-event-keycodes/) | [Code](./11-event-keycodes) |
+| 12 | FAQ Collapse | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/12-faq-collapse/) | [Code](./12-faq-collapse) |
+| 13 | Random Choice Picker | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/13-random-choice-picker/) | [Code](./13-random-choice-picker) |
+| 14 | Animated Navigation | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/14-animated-navigation/) | [Code](./14-animated-navigation) |
 | 15 | Incrementing Counter | [Live Demo](#) | [Code](./15-incrementing-counter) |
 | 16 | Drink Water | [Live Demo](#) | [Code](./16-drink-water) |
 | 17 | Movie App | [Live Demo](#) | [Code](./17-movie-app) |

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0a0a0c;
+  background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.05) 0%, rgba(0, 0, 0, 0) 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 191, 0, 0.02);
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+
+nav.active {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 191, 0, 0.3);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 191, 0, 0.05);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+nav.active ul {
+  width: 100%;
+}
+
+nav ul li {
+  transform: rotateY(0deg);
+  opacity: 0;
+  transition: transform 0.4s linear, opacity 0.4s linear;
+}
+
+nav.active ul li {
+  opacity: 1;
+  transform: rotateY(360deg);
+}
+
+nav ul a {
+  position: relative;
+  color: #e1e1e6;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+nav ul a:hover {
+  color: #ffbf00;
+}
+
+.icon {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:focus {
+  outline: 0;
+}
+
+.line {
+  background-color: #ffbf00;
+  height: 3px;
+  width: 22px;
+  border-radius: 3px;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s;
+  position: absolute;
+  box-shadow: 0 0 8px rgba(255, 191, 0, 0.4);
+}
+
+.line1 {
+  transform: translateY(-5px);
+}
+
+.line2 {
+  transform: translateY(5px);
+}
+
+/* The X Transformation */
+nav.active .icon .line1 {
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+nav.active .icon .line2 {
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+@media (max-width: 500px) {
+  nav.active {
+    width: 350px;
+  }
+  nav ul a {
+    margin: 0 8px;
+    font-size: 12px;
+  }
+}
