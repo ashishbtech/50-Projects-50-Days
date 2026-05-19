@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0a0a0c;
+  background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(255, 191, 0, 0.02);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffbf00;
+  text-shadow: 0 0 15px rgba(255, 191, 0, 0.3);
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #a0a0a5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.cup {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 191, 0, 0.4);
+  color: #ffffff;
+  border-radius: 0 0 40px 40px;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cup-small {
+  height: 95px;
+  width: 50px;
+  border-radius: 0 0 15px 15px;
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* The state when a small cup is clicked */
+.cup-small.full {
+  background-color: #00d4ff; /* Glowing Cyan for Water */
+  border-color: #00d4ff;
+  color: #0a0a0c;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+}
+
+.cup-big {
+  height: 330px;
+  width: 150px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.remained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+
+.remained span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e1e1e6;
+}
+
+.remained small {
+  font-size: 12px;
+  color: #a0a0a5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.percentage {
+  background-color: #00d4ff; /* Glowing Cyan for Water */
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 0;
+  transition: 0.3s ease;
+  color: #0a0a0c;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #e1e1e6;
+  font-size: 14px;
+}
