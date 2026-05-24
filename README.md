@@ -40,13 +40,13 @@ This challenge is based on the fantastic [50 Projects In 50 Days - HTML, CSS & J
 | 12 | FAQ Collapse | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/12-faq-collapse/) | [Code](./12-faq-collapse) |
 | 13 | Random Choice Picker | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/13-random-choice-picker/) | [Code](./13-random-choice-picker) |
 | 14 | Animated Navigation | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/14-animated-navigation/) | [Code](./14-animated-navigation) |
-| 15 | Incrementing Counter | [Live Demo](#) | [Code](./15-incrementing-counter) |
-| 16 | Drink Water | [Live Demo](#) | [Code](./16-drink-water) |
-| 17 | Movie App | [Live Demo](#) | [Code](./17-movie-app) |
-| 18 | Background Slider | [Live Demo](#) | [Code](./18-background-slider) |
-| 19 | Theme Clock | [Live Demo](#) | [Code](./19-theme-clock) |
-| 20 | Button Ripple Effect | [Live Demo](#) | [Code](./20-button-ripple-effect) |
-| 21 | Drag N Drop | [Live Demo](#) | [Code](./21-drag-n-drop) |
+| 15 | Incrementing Counter | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/15-incrementing-counter/) | [Code](./15-incrementing-counter) |
+| 16 | Drink Water | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/16-drink-water/) | [Code](./16-drink-water) |
+| 17 | Movie App | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/17-movie-app/) | [Code](./17-movie-app) |
+| 18 | Background Slider | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/18-background-slider/) | [Code](./18-background-slider) |
+| 19 | Theme Clock | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/19-theme-clock/) | [Code](./19-theme-clock) |
+| 20 | Button Ripple Effect | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/20-button-ripple-effect/) | [Code](./20-button-ripple-effect) |
+| 21 | Drag N Drop | [Live Demo](https://ashishbtech.github.io/50-Projects-50-Days/21-drag-n-drop/) | [Code](./21-drag-n-drop) |
 | 22 | Drawing App | [Live Demo](#) | [Code](./22-drawing-app) |
 | 23 | Kinetic Loader | [Live Demo](#) | [Code](./23-kinetic-loader) |
 | 24 | Content Placeholder | [Live Demo](#) | [Code](./24-content-placeholder) |
