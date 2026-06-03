@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0a0a0c;
+  background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(255, 191, 0, 0.02);
+  width: 400px;
+  max-width: 100%;
+}
+
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #a0a0a5;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  height: 60px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #ffbf00;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.result-container #result::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: #a0a0a5;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  color: #ffbf00;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 191, 0, 0.1);
+  color: #ffbf00;
+  border: 1px solid #ffbf00;
+  padding: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.btn-large:hover {
+  background-color: #ffbf00;
+  color: #0a0a0c;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting label {
+  font-size: 14px;
+  color: #e1e1e6;
+}
+
+.setting input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: inherit;
+  text-align: center;
+}
+
+.setting input[type="checkbox"] {
+  accent-color: #ffbf00;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}

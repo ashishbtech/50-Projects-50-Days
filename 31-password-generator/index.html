@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Access Vault | Day 31</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="glass-container">
+    <h2>Access Key Generator</h2>
+    
+    <div class="result-container">
+      <span id="result"></span>
+      <button class="btn" id="clipboard">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      </button>
+    </div>
+
+    <div class="settings">
+      <div class="setting">
+        <label>Key Length</label>
+        <input type="number" id="length" min="4" max="32" value="16">
+      </div>
+      <div class="setting">
+        <label>Include Uppercase</label>
+        <input type="checkbox" id="uppercase" checked>
+      </div>
+      <div class="setting">
+        <label>Include Lowercase</label>
+        <input type="checkbox" id="lowercase" checked>
+      </div>
+      <div class="setting">
+        <label>Include Numbers</label>
+        <input type="checkbox" id="numbers" checked>
+      </div>
+      <div class="setting">
+        <label>Include Symbols</label>
+        <input type="checkbox" id="symbols" checked>
+      </div>
+    </div>
+
+    <button class="btn btn-large" id="generate">Generate Key</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
