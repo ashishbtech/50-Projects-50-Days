@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0a0a0c;
+  background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(255, 191, 0, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magic-btn {
+  background-color: rgba(10, 10, 12, 0.7);
+  color: #ffbf00;
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 1px solid #ffbf00;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  z-index: 100;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 191, 0, 0.1);
+}
+
+.magic-btn:hover {
+  background-color: #ffbf00;
+  color: #0a0a0c;
+  box-shadow: 0 10px 25px rgba(255, 191, 0, 0.3);
+}
+
+.magic-btn:focus {
+  outline: none;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+.boxes.big {
+  width: 700px;
+  height: 700px;
+}
+
+.box {
+  background-image: url('https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600&q=80');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  transition: 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.box::after {
+  content: '';
+  background-color: #b38500;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  transform: skewY(45deg);
+}
+
+.box::before {
+  content: '';
+  background-color: #d9a300;
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
+}
